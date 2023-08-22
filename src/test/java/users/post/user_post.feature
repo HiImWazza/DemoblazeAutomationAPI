@@ -3,7 +3,7 @@ Feature: Post an user on demoblaze
   Background:
     * def path1 = "/signup"
     * def path2 = "/login"
-    #    halabala7 ya fue usado
+    #    Cambiar el valor de la variable "user" por un usuario que usted no haya utilizado
     * def user = "halabala7"
     * def pass = "123456"
     * def wrong_pass = "..."
