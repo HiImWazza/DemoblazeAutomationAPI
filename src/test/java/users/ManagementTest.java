@@ -16,8 +16,8 @@ import java.util.List;
 
 public class ManagementTest {
     @Test
-    void testParallel() {
-        Results results = Runner.path("classpath:users").outputCucumberJson(true).tags("~@ignore").parallel(4);
+    void testExecution() {
+        Results results = Runner.path("classpath:users").outputCucumberJson(true).tags("~@ignore").parallel(1);
         generateReport(results.getReportDir());
     }
 
