@@ -1,4 +1,4 @@
-# DemoblazeAutomationAPI_v3
+# DemoblazeAutomationAPI
 Automatización de pruebas API al sitio web "demoblaze".
 
 1. Prerequisitos:
@@ -17,7 +17,7 @@ Automatización de pruebas API al sitio web "demoblaze".
   - Clonar/descargar el zip del branch "main".
   - Extraer el proyecto en un directorio y abrir ese directorio con el IDE de IntelliJ
   - Cambiar el path de la versión de Gradle en IntelliJ:
-    - en IntelliJ, ir a: File -> Settings -> Build, Execution, Deployment -> Build Tools -> Gradle -> Gradle Projects -> Gradle -> Distribution
+    - En IntelliJ, ir a: File -> Settings -> Build, Execution, Deployment -> Build Tools -> Gradle -> Gradle Projects -> Gradle -> Distribution
     - Escoger la opción "Local installation" y corregir el path a donde usted haya ubicado la instalación de Gradle. (En mi caso: "C:/Gradle/gradle-7.6.1")
   - Cargar los cambios de Gradle en "build.gradle": Ctrl+Mayús+O (en Windows ) ... "Load Gradle Changes" 
   - Esperar a que el IDE importe las librerías correctamente (que gradle logre cargar las dependencias)
